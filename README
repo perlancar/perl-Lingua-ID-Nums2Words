@@ -1,0 +1,29 @@
+                                     NAME
+                                       
+   Lingua::ID::Nums2Words - convert number to Indonesian verbage.
+     _________________________________________________________________
+   
+                                   SYNOPSIS
+                                       
+  use Lingua::ID::Nums2Words ;
+
+  print nums2words(123)        ; # "seratus dua puluh tiga"
+  print nums2words_simple(123) ; # "satu dua tiga"
+     _________________________________________________________________
+   
+                                  DESCRIPTION
+                                       
+   words2nums currently can handle real numbers in normal and scientific
+   form in the order of hundreds of trillions. It also preserves
+   formatting in the number string (e.g, given ``1.00'' words2nums will
+   pronounce the zeros.
+     _________________________________________________________________
+   
+                                    AUTHOR
+                                       
+   Steven Haryanto <sh@hhh.indoglobal.com>
+     _________________________________________________________________
+   
+                                   SEE ALSO
+                                       
+   Lingua::ID::Words2Nums
