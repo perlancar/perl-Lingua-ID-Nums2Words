@@ -3,7 +3,7 @@
 use 5.010;
 use strict;
 use warnings;
-use Test::More tests => 30;
+use Test::More tests => 34;
 
 use Lingua::ID::Nums2Words qw(nums2words nums2words_simple);
 
@@ -34,6 +34,12 @@ my %test_n2w = (
         "empat ratus lima puluh enam ribu tujuh ratus delapan puluh sembilan",
     -4000000000000 => "negatif empat triliun",
     994000000000000 => "sembilan ratus sembilan puluh empat triliun",
+
+    "5.4e6" => "lima koma empat dikali sepuluh pangkat enam",
+    "-5.4e6" => "negatif lima koma empat dikali sepuluh pangkat enam",
+    "5.4e-6" => "lima koma empat dikali sepuluh pangkat negatif enam",
+    "-5.4e-6" => "negatif lima koma empat dikali sepuluh pangkat negatif enam",
+
 );
 for (sort {abs($a) <=> abs($b)} keys %test_n2w) {
     is(nums2words($_), $test_n2w{$_}, "$_ => $test_n2w{$_}");
