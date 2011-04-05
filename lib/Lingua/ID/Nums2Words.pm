@@ -180,7 +180,7 @@ __END__
 
 =head1 DESCRIPTION
 
-This module provides two functions, B<nums2words> and <nums2words_simple>, to
+This module provides two functions, B<nums2words> and B<nums2words_simple>, to
 convert number to Indonesian verbage. Popular Indonesian term for this kind of
 library is "terbilang", or roughly "spelled amount" in English.
 
