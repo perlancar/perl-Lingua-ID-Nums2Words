@@ -1,6 +1,6 @@
 Revision history for Lingua-ID-Nums2Words.
 
-0.02     2011-04-01
+0.02     2011-04-01 (SHARYANTO)
 
          [INCOMPATIBLE CHANGES]
 
@@ -14,6 +14,6 @@ Revision history for Lingua-ID-Nums2Words.
            comments, etc).
 
 
-0.01     1999-06-01
+0.01     1999-06-01 (SHARYANTO)
 
          - original version; created by h2xs 1.19
