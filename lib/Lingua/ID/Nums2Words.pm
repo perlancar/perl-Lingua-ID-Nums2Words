@@ -68,6 +68,8 @@ _
             pos => 0,
         },
     },
+    args_as => 'array',
+    result_naked => 1,
 };
 sub nums2words($) { _join_it(_handle_scinotation(@_)) }
 
@@ -87,6 +89,8 @@ _
             pos => 0,
         },
     },
+    args_as => 'array',
+    result_naked => 1,
 };
 sub nums2words_simple($) { _join_it(_handle_dec(@_)) }
 
