@@ -1,6 +1,6 @@
 package Lingua::ID::Nums2Words;
 
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 
