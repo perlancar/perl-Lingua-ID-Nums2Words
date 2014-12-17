@@ -1,5 +1,8 @@
 package Lingua::ID::Nums2Words;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
@@ -9,8 +12,6 @@ our @ISA       = qw(Exporter);
 our @EXPORT_OK = qw(nums2words nums2words_simple);
 
 our %SPEC;
-
-# VERSION
 
 use vars qw(
     $Dec_char
@@ -213,7 +214,7 @@ sub _join_it(@) {
 }
 
 1;
-# ABSTRACT: Convert number to Indonesian verbage
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
