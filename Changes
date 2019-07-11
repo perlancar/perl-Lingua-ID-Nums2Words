@@ -1,4 +1,4 @@
-0.04    2015-09-03 (PERLANCAR)
+0.04    2015-09-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -7,12 +7,12 @@
 	  requirement.
 
 
-0.03     2012-06-26 (SHARYANTO)
+0.03     2012-06-26  Released-By: SHARYANTO
 
          - No functional changes, add Rinci metadata.
 
 
-0.02     2011-04-01 (SHARYANTO)
+0.02     2011-04-01  Released-By: SHARYANTO
 
          [INCOMPATIBLE CHANGES]
 
@@ -26,6 +26,6 @@
            comments, etc).
 
 
-0.01     1999-06-01 (SHARYANTO)
+0.01     1999-06-01  Released-By: SHARYANTO
 
          - original version; created by h2xs 1.19
